@@ -6,7 +6,7 @@ format: html
 
 ```{r, include=F}
 # Load necessary libraries
-required_packages <- c("tuneR", "seewave", "audio", "speech", "tidyverse", "text", "reticulate", "av", "googleLanguageR", "tidytext", "dplyr", "udpipe", "topicmodels", "tm", "ggplot2", "sqldf", "textrank", "hunspell", "viridis")
+required_packages <- c("tuneR", "seewave", "audio", "speech", "tidyverse", "text", "reticulate", "av", "googleLanguageR", "tidytext", "dplyr", "udpipe", "topicmodels", "tm", "ggplot2", "sqldf", "textrank", "hunspell", "viridis", "reshape2")
 
 # Check for missing packages and install them if necessary
 missing_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
